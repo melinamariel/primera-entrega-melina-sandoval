@@ -25,6 +25,8 @@ if (nombre == ""){
 
 
 
+
+
 celular = Number ( prompt ("ingrese numero de celular "))
 if (celular == ""){
     alert("no ingresaste ningun dato")
@@ -47,6 +49,15 @@ function texto (saludos) {
     texto ("hola")
 
     console.log(nombre + " " + apellido + " " + "tu numero es:" + " " + numero )
+
+    function Persona(nombre, apellido) {
+        this.nombre = nombre;
+        this.apellido= apellido 
+        this.saludo = function(){ console.log("Bienvenidos")}
+    }
+    const persona1 = new Persona(nombre, apellido);
+    
+    persona1.saludo();
 
 
 
