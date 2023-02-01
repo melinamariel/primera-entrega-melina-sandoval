@@ -62,6 +62,30 @@ function texto (saludos) {
 
 
 
+//     const personas =[]
+// function agregarPersonas(){
+
+// 	let nombre = prompt("Ingresa nombre")
+
+//  	let apellido = prompt("ingresa apellido")
+
+//     let celular = prompt("ingresar numero de celular")
+
+// 	let nuevaPersona = new Personas(nombre, apellido,celular)
+
+// 	 personas.push(nuevaPersona)
+     
+// }
+// agregarPersonas()
+
+const premios= ["1º televisor smart tv", "2º licuadora", "3º tostadota"]
+premios.push("lampara uv")
+console.log(premios.length)
+console.log(premios)
+
+
+
+
 
 
 
